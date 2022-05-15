@@ -1,4 +1,3 @@
-<p>all-keys works!1</p>
-<div *ngFor="let d of allDungs, let i = index">
-    {{d}}
-</div>
+<mat-grid-list [cols]="columns" rowHeight="2:1">
+    <mat-grid-tile *ngFor="let t of tiles">{{t.text}}</mat-grid-tile>   
+</mat-grid-list>
