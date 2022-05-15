@@ -1,0 +1,1 @@
+export type AffixWeek = 'Fortified' | 'Tyrannical' | 10 | 9
